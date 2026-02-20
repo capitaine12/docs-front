@@ -68,9 +68,21 @@ Mise à jour: après runs console `18:17:46` (vert) et `00:45:8` du 20/02 (régr
 - Implémentation réelle attend un objet polymorphique (`type: PHYSICAL|MORAL` + champs dédiés).
 - Action backend: corriger OpenAPI pour éviter les erreurs d’intégration.
 
+## 8) Swagger Projet Documents à aligner
+- Endpoints backend confirmés:
+  - `GET /api/projects/{projectId}/documents`
+  - `POST /api/projects/{projectId}/documents`
+  - `DELETE /api/projects/{projectId}/documents`
+  - `POST /api/projects/{projectId}/documents/url`
+- Écarts observés:
+  - Swagger indique `DELETE .../documents` => `200`, backend renvoie `204`.
+  - Swagger montre `type=SPECIFICATIONS`, backend attend `SPECIFICATION` (enum réel: `SPECIFICATION`, `CONTRACT`, `INVOICE`, `REPORT`, `OTHER`).
+- Action backend:
+  - corriger la spec OpenAPI pour éviter erreurs d’intégration frontend.
+
 ## Priorité recommandée backend
 1. Publier migration seed RBAC ADMIN complète (supprimer dépendance au hotfix local).  
 2. Gérer proprement la taille upload (`413/400` au lieu de `500`).  
-3. Mettre Swagger en phase avec le contrat réel (`profileDetails` polymorphique).
+3. Mettre Swagger en phase avec le contrat réel (`profileDetails` polymorphique + Documents Projet).
 
 [⬅ Retour à la liste](./index.html)

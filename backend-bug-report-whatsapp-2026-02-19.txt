@@ -6,5 +6,6 @@ Bonjour, update QA local tenant (run 20/02 00:45) :
 4) Le cas gros fichier doit toujours être géré en `413/400` (pas `500`).
 5) Swagger `PUT /api/user/profile` reste incohérent (`profileDetails` string vs objet typé attendu).
 6) Migration RBAC ADMIN doit être officielle (pas hotfix SQL local).
+7) Swagger Documents Projet à aligner: `DELETE /api/projects/{projectId}/documents` est doc en 200 alors que backend renvoie 204, et le type exemple `SPECIFICATIONS` ne match pas l'enum backend (`SPECIFICATION`, `CONTRACT`, `INVOICE`, `REPORT`, `OTHER`).
 
 Merci de pousser ces correctifs backend pour clôturer.
