@@ -1,0 +1,1249 @@
+Loading failed for the module with source “http://localhost:3000/node_modules/@svar-ui/react-gantt/dist-full/index.css”. __root.tsx
+GET
+http://localhost:3000/dasboard/admin
+[HTTP/1.1 200  0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/axios.js?v=89c40fe3
+NS_BINDING_ABORTED
+
+Loading failed for the module with source “http://localhost:3000/src/styles.css?url”. __root.tsx
+Loading failed for the module with source “http://localhost:3000/src/components/ui/sonner.tsx”. __root.tsx
+Loading failed for the module with source “http://localhost:3000/src/services/auth/authService.ts”. _protected.tsx
+Loading failed for the module with source “http://localhost:3000/src/components/shared/header.tsx?t=1771550070741”. layout.tsx
+Loading failed for the module with source “http://localhost:3000/src/lib/permissions.ts”. roleEtPermission.tsx
+Loading failed for the module with source “http://localhost:3000/node_modules/.vite/deps/axios.js?v=89c40fe3”. api.ts
+Uncaught (in promise) TypeError: error loading dynamically imported module: http://localhost:3000/node_modules/@svar-ui/react-gantt/dist-full/index.css
+GET
+http://localhost:3000/node_modules/@tanstack/react-router-devtools/dist/esm/TanStackRouterDevtools.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router-devtools/dist/esm/TanStackRouterDevtoolsPanel.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-7ZJJL7JE.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap
+[HTTP/2 200 OK 0ms]
+
+GET
+http://localhost:3000/src/styles.css
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/@react-refresh
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/favicon.ico
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/@vite/client
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/vite/dist/client/env.mjs
+[HTTP/1.1 200 OK 0ms]
+
+[vite] connecting... client:733:9
+GET
+http://localhost:3000/@id/virtual:tanstack-start-client-entry
+[HTTP/1.1 200 OK 0ms]
+
+GET
+ws://localhost:3000/?token=_17sCbwYQkm3
+[HTTP/1.1 101 Switching Protocols 1ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-start/dist/esm/client.js?t=1771555304675&v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+[vite] connected. client:827:12
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-KMU3Z7QX.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-start-client/dist/esm/index.js?t=1771555304675&v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-F5X6INBZ.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-start-client/dist/esm/StartClient.js?t=1771555304675&v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-start-client/dist/esm/renderRSC.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react_jsx-runtime.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/client/index.js?t=1771555304675&v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/tiny-invariant/dist/esm/tiny-invariant.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-FXVZLN7E.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/history/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/awaited.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/CatchBoundary.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/ClientOnly.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/fileRoute.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/lazyRouteComponent.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/link.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/Matches.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/matchContext.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/Match.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useMatch.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useLoaderDeps.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useLoaderData.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/route.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/router.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/RouterProvider.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/ScrollRestoration.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useBlocker.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useNavigate.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useParams.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useSearch.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/routerContext.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useRouteContext.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useRouter.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useRouterState.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useLocation.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/useCanGoBack.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/utils.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/not-found.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/ScriptOnce.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/Asset.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/HeadContent.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/Scripts.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/client/hydrateStart.js?t=1771555304675&v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/defer.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/link.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/load-matches.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/Matches.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/path.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/qss.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/root.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/route.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/router.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/config.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/searchMiddleware.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/searchParams.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/utils.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/redirect.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/not-found.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/scroll-restoration.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/serializer/transformer.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/serializer/seroval-plugins.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/rewrite.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/tiny-warning/dist/tiny-warning.esm.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-dom.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/Transitioner.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/SafeFragment.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/renderRouteNotFound.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router/dist/esm/scroll-restoration.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@tanstack_react-router___@tanstack_react-store.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/client.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/client/ServerFunctionSerializationAdapter.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/router.tsx?t=1771555304675
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/new-process-route-tree.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/lru-cache.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/seroval/dist/esm/development/index.mjs?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/constants.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/seroval-plugins/dist/esm/development/web.mjs?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/serializer/ShallowErrorPlugin.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-GTS5Q7AN.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/headers.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/json.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/constants.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/dist/esm/ssr/ssr-client.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/createClientRpc.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/integrations/tanstack-query/root-provider.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routeTree.gen.ts?t=1771555304675
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/pages/errors/NotFound.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/pages/errors/ErrorServer.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/context/TenantBootstrap.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/context/NavigationBootstrap.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/derived.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/effect.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/store.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/types.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-core/node_modules/@tanstack/store/dist/esm/scheduler.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/cookie-es/dist/index.mjs?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/serverFnFetcher.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@tanstack_react-query.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@tanstack_react-query-devtools.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/__root.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/forbidden.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/dashboards.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/index.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_auth/reset-password.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_auth/login.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_auth/forgot-password.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/tasks.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/profile.tsx?t=1771555304675
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/layout.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/api.trpc.$.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/scrumboard/index.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/files/filesManager.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/roleEtPermission.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/managment.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/allProject.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/admin.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/hooks/tenant/useTenantIdentity.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/store/useTenantStore.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/store/useAuthStore.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/hooks/navigation/useNavigationPermissions.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/getDefaultSerovalPlugins.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-VAXIB6HH.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-5YE6AWTO.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router-devtools/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@tanstack_react-devtools.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/integrations/tanstack-query/devtools.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@svar-ui/react-gantt/dist-full/index.css
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/styles.css?url
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/ui/sonner.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/api.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/auth/authService.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/zod_v3.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/store/usePermissionStore.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/lib/permissions.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/tenant/tenantService.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/zustand.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/navigation/navigationService.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/lib/navigation-permissions.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/start-client-core/dist/esm/getStartOptions.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router-devtools/dist/esm/TanStackRouterDevtools.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/react-router-devtools/dist/esm/TanStackRouterDevtoolsPanel.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-7ZJJL7JE.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/next-themes.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/sonner.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/axios.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/asset/Logo.png?import
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/SearchBar.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/ProfileMenu.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/ConceptsMenu.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-icons_bs.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/Notifications.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/LanguageSelector.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/header/DashbaordsMenu.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-devtools-core/dist/esm/index.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/hooks/auth/useLogout.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/hooks/users/useMyProfile.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/lib/avatar.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/lib/LinkItems.tsx?t=1771550070741
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/lib/QuickApps.tsx
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/@tanstack/router-devtools-core/dist/index-Bz4rofgr.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/user/userService.ts
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-GH3FL7OR.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/solid-js/web/dist/dev.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/solid-js/dist/dev.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+You appear to have multiple instances of Solid. This can lead to unexpected behavior. <anonymous code>:1:147461
+GET
+http://localhost:3000/src/routes/_protected.tsx?t=1771550070741&tsr-split=component
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/admin.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 0ms]
+
+XHRPOST
+http://localhost:8082/api/auth/refresh-token
+[HTTP/1.1 200  30ms]
+
+XHROPTIONS
+http://localhost:8082/api/auth/refresh-token
+[HTTP/1.1 200  1ms]
+
+GET
+http://localhost:3000/src/pages/admin/DashboardAdminPage.tsx
+[HTTP/1.1 304 Not Modified 3ms]
+
+Erreur dans les liens source : Error: request failed with status 404
+Stack in the worker:networkRequest@resource://devtools/client/shared/source-map-loader/utils/network-request.js:43:9
+
+URL de la ressource : http://localhost:3000/dasboard/%3Canonymous%20code%3E
+URL du lien source : installHook.js.map
+GET
+http://localhost:3000/src/components/ui/adminComponents/apercu.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/adminComponents/Calendrier.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/adminComponents/chartCircle.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/ui/adminComponents/chartHistogramme2.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/adminComponents/splineArea.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/adminComponents/geographyCard.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/card.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/ui/button.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/dialog.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/ui/navigation-menu.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/calendar.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/input.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/label.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/ui/select.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-apexcharts.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-leaflet.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/leaflet/dist/leaflet.css
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/lib/utils.ts
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@radix-ui_react-slot.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/class-variance-authority.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@radix-ui_react-dialog.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@radix-ui_react-navigation-menu.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@radix-ui_react-label.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-day-picker.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@radix-ui_react-select.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/clsx.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/tailwind-merge.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-WGRQAFEQ.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-L7OTZBEG.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-PQZOP5DE.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-OKAW67OD.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-YKSCBFHD.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-RPPDK2WI.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-QHQAXFJT.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-3GL6P6IT.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-WC27G43E.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-ZAGDMU4N.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+XHRGET
+http://localhost:8082/api/public/identity
+[HTTP/1.1 200  96ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/6XAY2RKM-TBW5LHZN.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/6ELMOJL2-EPSFKS37.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+XHROPTIONS
+http://localhost:8082/api/public/identity
+[HTTP/1.1 200  12ms]
+
+XHRGET
+http://localhost:8082/api/navigation
+[HTTP/1.1 200  263ms]
+
+XHROPTIONS
+http://localhost:8082/api/navigation
+[HTTP/1.1 200  2ms]
+
+GET
+http://localhost:3000/src/asset/Logo.png
+[HTTP/1.1 200 OK 0ms]
+
+XHRGET
+http://localhost:8082/api/user/profile
+[HTTP/1.1 200  130ms]
+
+XHROPTIONS
+http://localhost:8082/api/user/profile
+[HTTP/1.1 200  3ms]
+
+GET
+http://localhost:3000/node_modules/leaflet/dist/images/marker-icon.png
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/leaflet/dist/images/marker-shadow.png
+[HTTP/1.1 200 OK 0ms]
+
+GET
+data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22%23E5E7EB%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2280%22%20cy%3D%2262%22%20r%3D%2226%22%20fill%3D%22%239CA3AF%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M34%20128c6-24%2027-38%2046-38s40%2014%2046%2038%22%20fill%3D%22%239CA3AF%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-V5Q5FE4T.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:9000/proevalis-tenants/b0347409-2002-4817-a56d-e57b77b04391/2026/02/avatars/8aa9e900-1769-48d3-bfdf-0f23c58623ca/1771547967748_avatar.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin/20260220/wa-west-1/s3/aws4_request&X-Amz-Date=20260220T024906Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=6904739a81ec772a7858f8a96184e76f21b32ed2f13239192163556cd2a53648
+[HTTP/1.1 200 OK 11ms]
+
+GET
+http://localhost:3000/src/routes/_protected/scrumboard/index.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/ScrumBoard.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/allProject.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@hello-pangea_dnd.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/Column.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/index.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/uuid.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/AvatarTooltip.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/ManageMembersModal.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/mocks/mockProject.ts
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/pages/projects/AllProjectPage.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/ModalWrapper.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/AddColumnModal.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/AddTaskModal.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/CardDetailsModal.tsx
+[HTTP/1.1 304 Not Modified 2ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/Card.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/hooks/projects/useProjects.ts
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/BoardModals/AssignMemberPopover.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/lib/labels.ts
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/LabelChip.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/LabelPopover.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/comments/AttachmentsSection.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/comments/CommentSection.tsx
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/react-icons_im.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/services/project/projectService.ts
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/tasks.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 3ms]
+
+GET
+http://localhost:3000/src/pages/tasks/AssignedTasksPage.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+XHRGET
+http://localhost:8082/api/projects
+[HTTP/1.1 403  73ms]
+
+XHROPTIONS
+http://localhost:8082/api/projects
+[HTTP/1.1 200  2ms]
+
+XHRGET
+http://localhost:8082/api/projects
+[HTTP/1.1 403  69ms]
+
+XHROPTIONS
+http://localhost:8082/api/projects
+[HTTP/1.1 200  2ms]
+
+GET
+http://localhost:3000/src/routes/forbidden.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/pages/errors/ForbiddenPage.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-ZAGDMU4N.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+XHR
+GET
+http://localhost:8082/api/public/identity
+[HTTP/1.1 200  136ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/6XAY2RKM-TBW5LHZN.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/6ELMOJL2-EPSFKS37.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+XHR
+GET
+http://localhost:8082/api/navigation
+[HTTP/1.1 200  231ms]
+
+XHR
+OPTIONS
+http://localhost:8082/api/public/identity
+[HTTP/1.1 200  5ms]
+
+XHR
+OPTIONS
+http://localhost:8082/api/navigation
+[HTTP/1.1 200  8ms]
+
+GET
+http://localhost:3000/src/asset/Logo.png
+[HTTP/1.1 304 Not Modified 7ms]
+
+XHR
+GET
+http://localhost:8082/api/user/profile
+[HTTP/1.1 200  129ms]
+
+XHR
+OPTIONS
+http://localhost:8082/api/user/profile
+[HTTP/1.1 200  2ms]
+
+GET
+http://localhost:3000/node_modules/leaflet/dist/images/marker-icon.png
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+http://localhost:3000/node_modules/leaflet/dist/images/marker-shadow.png
+[HTTP/1.1 304 Not Modified 1ms]
+
+GET
+data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22%23E5E7EB%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2280%22%20cy%3D%2262%22%20r%3D%2226%22%20fill%3D%22%239CA3AF%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M34%20128c6-24%2027-38%2046-38s40%2014%2046%2038%22%20fill%3D%22%239CA3AF%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E
+
+GET
+data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=
+
+GET
+https://c.tile.openstreetmap.org/2/1/1.png
+[HTTP/2 200  0ms]
+
+GET
+https://a.tile.openstreetmap.org/2/2/1.png
+[HTTP/2 200  0ms]
+
+GET
+https://a.tile.openstreetmap.org/2/1/2.png
+[HTTP/2 200  0ms]
+
+GET
+https://b.tile.openstreetmap.org/2/2/2.png
+[HTTP/2 200  0ms]
+
+GET
+https://b.tile.openstreetmap.org/2/0/1.png
+[HTTP/2 200  0ms]
+
+GET
+https://b.tile.openstreetmap.org/2/3/1.png
+[HTTP/2 200  0ms]
+
+GET
+https://c.tile.openstreetmap.org/2/0/2.png
+[HTTP/2 200  0ms]
+
+GET
+https://c.tile.openstreetmap.org/2/3/2.png
+[HTTP/2 200  0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/chunk-V5Q5FE4T.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:9000/proevalis-tenants/b0347409-2002-4817-a56d-e57b77b04391/2026/02/avatars/8aa9e900-1769-48d3-bfdf-0f23c58623ca/1771547967748_avatar.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin/20260220/wa-west-1/s3/aws4_request&X-Amz-Date=20260220T025043Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=a86dd0b9e0a8619869a8d7d11a8f06890a7a33b8e02f15cfec09e9ebf8787c2b
+[HTTP/1.1 200 OK 2ms]
+
+GET
+http://localhost:3000/src/routes/_protected/scrumboard/index.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/components/shared/ScrumBoard.tsx
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/src/routes/_protected/dasboard/allProject.tsx?tsr-split=component
+[HTTP/1.1 304 Not Modified 0ms]
+
+GET
+http://localhost:3000/node_modules/.vite/deps/@hello-pangea_dnd.js?v=89c40fe3
+[HTTP/1.1 200 OK 0ms]
+
+GET
+http://localhost:3000/src/components/shared/scrum/Column.tsx

@@ -1,0 +1,161 @@
+Gestion des Rôles
+
+API d'administration des rôles et permissions
+Gestion des Groupes
+
+Création de groupes d'utilisateurs et gestion de leurs permissions.
+GET
+/api/groups/{groupId}
+Détails d'un groupe
+PUT
+/api/groups/{groupId}
+Mettre à jour un groupe
+DELETE
+/api/groups/{groupId}
+Supprimer un groupe
+GET
+/api/groups
+Lister les groupes
+POST
+/api/groups
+Créer un groupe
+POST
+/api/groups/{groupId}/members/{userId}
+Ajouter un membre
+DELETE
+/api/groups/{groupId}/members/{userId}
+Retirer un membre
+POST
+/api/groups/{groupId}/assignments/roles
+Donner un droit AU groupe
+POST
+/api/groups/{groupId}/access/users/{userId}
+Donner un droit SUR le groupe
+Gestion des Projets
+
+Cycle de vie des projets, métadonnées (tags, catégories) et gestion des membres.
+Administration Utilisateurs
+
+API Back-office : CRUD utilisateurs, exports et gestion avancée des droits (ReBAC).
+PUT
+/api/admin/users/{userId}
+Modifier un profil
+DELETE
+/api/admin/users/{userId}
+Supprimer un utilisateur
+GET
+/api/admin/users
+Lister les utilisateurs
+POST
+/api/admin/users
+Créer un utilisateur
+POST
+/api/admin/users/{userId}/roles
+Attribuer un rôle
+DELETE
+/api/admin/users/{userId}/roles
+Révoquer un rôle
+POST
+/api/admin/users/{userId}/permissions
+Accorder une permission
+DELETE
+/api/admin/users/{userId}/permissions
+Révoquer une permission
+GET
+/api/admin/users/export/excel
+Export Excel
+Identité Publique
+
+Endpoints publics permettant au frontend de résoudre l'identité du Tenant courant.
+GET
+/api/public/identity
+Récupérer l'identité du Tenant
+Espace Utilisateur
+
+Gestion du profil personnel, avatar et documents de l'utilisateur connecté.
+GET
+/api/user/profile
+Mon Profil
+PUT
+/api/user/profile
+Mettre à jour mon profil
+PUT
+/api/user/profile/password
+Changer le mot de passe
+POST
+/api/user/profile/documents/{type}
+Uploader un document
+POST
+/api/user/profile/avatar
+Uploader un avatar
+DELETE
+/api/user/profile/avatar
+Supprimer l'avatar
+GET
+/api/user/profile/documents
+Mes Documents
+GET
+/api/user/profile/documents/{documentId}/download
+Lien de téléchargement
+DELETE
+/api/user/profile/documents/{documentId}
+Supprimer un document
+Authentification
+
+
+=======================================================
+
+Endpoints pour la gestion de l'identité (Connexion, Refresh Token, Mot de passe oublié)
+
+Navigation & Menu
+
+Point d'entrée dynamique pour l'interface utilisateur (HATEOAS Discovery).
+GET
+/api/navigation
+Obtenir le Menu Global
+
+
+=======================================================
+
+Gestion des Catégories
+
+API de gestion des étiquettes transverses (Tags colorés) pour les projets et autres ressources.
+GET
+/api/categories
+Lister les catégories
+POST
+/api/categories
+Créer une catégorie
+DELETE
+/api/categories/{id}
+Supprimer une catégorie
+
+=======================================================
+
+Documents Projet
+
+Gestion des fichiers attachés aux projets (Upload, Liste, Liens de téléchargement).
+GET
+/api/projects/{projectId}/documents
+Lister les documents
+POST
+/api/projects/{projectId}/documents
+Uploader un fichier
+DELETE
+/api/projects/{projectId}/documents
+Supprimer un document
+POST
+/api/projects/{projectId}/documents/url
+Obtenir lien de téléchargement
+
+============================================================
+payment-controller
+POST
+/api/payments/initiate
+
+=============================================================
+rebac-metadata-controller
+GET
+/api/rebac/metadata/schema
+GET
+/api/rebac/metadata/schema/{scope}
