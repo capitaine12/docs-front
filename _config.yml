@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
-title: Bug Tracker
-description: Liste des bugs rencontrés et solutions
+title: ProEvalis Tenant Docs
+description: Documentation de suivi Frontend/Backend du module Tenant
+markdown: kramdown

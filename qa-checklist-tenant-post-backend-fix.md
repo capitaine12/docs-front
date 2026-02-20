@@ -1,92 +1,74 @@
-<p>
-  <a href="./index.html" style="
-    display:inline-block;
-    padding:8px 16px;
-    background:#2d89ef;
-    color:white;
-    text-decoration:none;
-    border-radius:6px;
-  ">
-    ⬅ Retour à la liste
-  </a>
-</p>
+# QA Checklist Tenant (Apres Correctifs Backend)
 
-# QA Checklist Tenant (après correctifs backend)
+Version: 2026-02-20  
+Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend tenant.
 
-Date: 2026-02-19  
-Contexte: validation frontend tenant avec backend local `http://localhost:8082`
+## Pre-requis
 
-## État rapide (dernier run: `docs/logs/console-export-2026-2-19_18-17-46.log`)
-- `PUT /api/user/profile`: PASS (`200`)
-- `POST /api/user/profile/avatar`: PASS (`200`)
-- Documents profil upload/list/delete: PASS (`200/204`)
-- 403 projets/admin: non observé sur ce run (après hotfix RBAC local)
-- Point restant majeur: gestion dépassement taille upload (doit répondre `413/400`, pas `500`)
+- Backend tenant demarre sur `http://localhost:8082`
+- Frontend demarre sur `http://localhost:3000`
+- Variable frontend: `VITE_TENANT_API_BASE_URL=http://localhost:8082/api`
+- Compte admin tenant valide
 
-## État rapide (run suivant: `docs/logs/console-export-2026-2-20_0-45-8.log`)
-- `PUT /api/user/profile`: PASS (`200`)
-- `POST/DELETE /api/user/profile/avatar`: PASS (`200/204`)
-- Documents: PARTIEL (un `POST .../DRIVING_LICENSE` en `500`)
-- Projets: FAIL (`GET /api/projects` en `403` répété)
+## Scenario A - Auth et bootstrap
 
-## Pré-requis
-- Backend tenant lancé sur `8082`.
-- Frontend lancé sur `3000`.
-- Identifiants tenant valides.
-- Variables frontend:
-  - `VITE_TENANT_API_BASE_URL=http://localhost:8082/api`
+1. Se connecter.
+2. Verifier en reseau:
+   - `POST /api/auth/login` -> `200`
+   - `GET /api/public/identity` -> `200`
+   - `GET /api/navigation` -> `200`
+3. Recharger la page.
+4. Verifier refresh session si besoin:
+   - `POST /api/auth/refresh-token` -> `200` (quand access token expire)
 
-## 1) Auth + bootstrap
-1. Login.
-2. Vérifier:
-- `POST /api/auth/login` => 200
-- `GET /api/public/identity` => 200
-- `GET /api/navigation` => 200
-3. Refresh page.
-4. Vérifier `POST /api/auth/refresh-token` => 200 si access expiré.
+## Scenario B - Profil utilisateur
 
-## 2) Profil (payload réel)
-1. Aller sur `/profile`.
-2. Modifier prénom/nom/email/adresse.
-3. Vérifier `PUT /api/user/profile` => 200 stable (pas de 500 intermittent).
-4. Vérifier en backend que `profileDetails` est accepté avec structure typée (`type` + champs).
+1. Ouvrir `/profile`.
+2. Modifier des champs personnels.
+3. Verifier:
+   - `PUT /api/user/profile` -> `200`
+   - aucune erreur console frontend
 
-## 3) Avatar
-1. Upload image `< 5MB`.
-2. Vérifier `POST /api/user/profile/avatar` => 200 stable.
-3. Supprimer avatar.
-4. Vérifier `DELETE /api/user/profile/avatar` => 204.
+## Scenario C - Avatar
 
-## 4) Documents profil
-1. Uploader fichiers types:
-- `PASSPORT`
-- `ID_CARD_FRONT`
-- `RESIDENCE_PROOF`
-2. Vérifier:
-- `POST /api/user/profile/documents/{type}` => 200
-- `GET /api/user/profile/documents` => 200
-3. Télécharger/supprimer un document:
-- download => 200
-- delete => 204
-4. Tester gros fichier (> limite):
-- attendu backend: `413` ou `400` avec message clair (pas `500`).
+1. Uploader une image valide (< 5MB, jpg/png/webp).
+2. Verifier `POST /api/user/profile/avatar` -> `200`.
+3. Supprimer l'avatar.
+4. Verifier `DELETE /api/user/profile/avatar` -> `204`.
 
-## 5) Admin + projets
-1. Aller sur `/dasboard/admin`.
-2. Vérifier chargement liste users (pas de 403 backend).
-3. Aller sur pages qui appellent `/api/projects`.
-4. Vérifier absence de 403 pour utilisateur admin tenant.
+## Scenario D - Documents profil
 
-## 6) Navigation HATEOAS
-1. Vérifier `GET /api/navigation` => 200.
-2. Vérifier absence d’erreur provider ReBAC dans logs backend.
+1. Uploader des documents standards:
+   - `PASSPORT`
+   - `ID_CARD_FRONT`
+   - `RESIDENCE_PROOF`
+2. Verifier:
+   - `POST /api/user/profile/documents/{type}` -> `200`
+   - `GET /api/user/profile/documents` -> `200`
+3. Tester suppression document:
+   - `DELETE /api/user/profile/documents/{documentId}` -> `204`
+4. Tester depassement taille:
+   - attendu: `413` ou `400` metier (et non `500`)
 
-## Critères de sortie
-- Aucun `500` sur:
-  - `PUT /api/user/profile`
-  - `POST /api/user/profile/avatar`
-  - upload documents (hors validation taille qui doit être 400/413)
-- Aucun `403` sur `/api/projects` et `/api/admin/users` pour admin tenant.
-- Contrat Swagger aligné avec payload réel `profileDetails`.
+## Scenario E - Projets et admin
 
-[⬅ Retour à la liste](./index.html)
+1. Aller sur `/dasboard/admin` et `/dasboard/allProject`.
+2. Verifier absence de `403` sur:
+   - `GET /api/admin/users`
+   - `GET /api/projects`
+
+## Critere de validation globale
+
+- Aucun `500` sur endpoints profil standards.
+- Aucun `403` sur endpoints admin/projets pour role `ADMIN`.
+- Les erreurs metier (taille, type fichier) retournent des statuts explicites (`400`/`413`).
+
+## Sortie et preuves
+
+- Archiver un log navigateur dans `docs/logs/`.
+- En cas d'echec, ouvrir ou mettre a jour:
+  - `docs/backend-bug-report-2026-02-19.md`
+  - `docs/backend-needs-for-frontend.md`
+
+Retour index: [index](./index.html)
+
