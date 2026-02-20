@@ -72,3 +72,5 @@ Mise à jour: après runs console `18:17:46` (vert) et `00:45:8` du 20/02 (régr
 1. Publier migration seed RBAC ADMIN complète (supprimer dépendance au hotfix local).  
 2. Gérer proprement la taille upload (`413/400` au lieu de `500`).  
 3. Mettre Swagger en phase avec le contrat réel (`profileDetails` polymorphique).
+
+[⬅ Retour à la liste](./index.html)

@@ -88,3 +88,5 @@ Contexte: validation frontend tenant avec backend local `http://localhost:8082`
   - upload documents (hors validation taille qui doit être 400/413)
 - Aucun `403` sur `/api/projects` et `/api/admin/users` pour admin tenant.
 - Contrat Swagger aligné avec payload réel `profileDetails`.
+
+[⬅ Retour à la liste](./index.html)

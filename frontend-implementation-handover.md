@@ -119,3 +119,5 @@ Portée: module tenant uniquement (pas super-admin master)
 - Notifications et 2FA: endpoints métier dédiés non exposés dans Swagger partagé.
 - Tâches utilisateur: endpoint dédié requis pour un affichage fiable.
 - Modules Scrum/Management: migration des mocks reportée (à faire plus tard, comme convenu).
+
+[⬅ Retour à la liste](./index.html)

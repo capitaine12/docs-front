@@ -77,3 +77,5 @@ Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 - Rapport détaillé: `docs/backend-bug-report-2026-02-19.md`
 - Checklist QA: `docs/qa-checklist-tenant-post-backend-fix.md`
 - Hotfix local RBAC: `docs/local-admin-rebac-hotfix.sql`
+
+[⬅ Retour à la liste](./index.html)
