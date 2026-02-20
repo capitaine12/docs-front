@@ -1,3 +1,16 @@
+<p>
+  <a href="./index.html" style="
+    display:inline-block;
+    padding:8px 16px;
+    background:#2d89ef;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+  ">
+    ⬅ Retour à la liste
+  </a>
+</p>
+
 # Besoins Backend Pour Alignement Frontend (Tenant)
 
 Date: 2026-02-19  
