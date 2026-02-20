@@ -10,7 +10,6 @@
     ⬅ Retour à la liste
   </a>
 </p>
-[⬅ Retour à la liste](./index.html)
 
 # Rapport Bugs Backend (Local) — Tenant
 
