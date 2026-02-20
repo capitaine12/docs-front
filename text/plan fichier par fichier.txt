@@ -1,0 +1,77 @@
+Super, on attaque donc **1. Plan fichier par fichier** (sans code).  
+Je reste strictement aligné backend tenant + doc technique.
+
+**Plan fichier par fichier (ordre recommandé)**
+
+**A. Infrastructure API + Auth (socle)**
+1. `proevalis-frontend/src/services/api.ts`  
+   - Remplacer baseURL fixe par env  
+   - Centraliser `X-Tenant-ID`  
+   - Ajouter refresh token + retry (interceptor)  
+2. `proevalis-frontend/src/env.ts`  
+   - Ajouter `VITE_TENANT_API_BASE_URL`  
+   - Ajouter `VITE_TENANT_ID` (fallback local)  
+3. `proevalis-frontend/src/store/useAuthStore.ts`  
+   - Ajuster le store: `accessToken`, `user`, `permissions` (pas de token en localStorage si possible)  
+4. `proevalis-frontend/src/services/auth/authService.ts`  
+   - Alignement endpoints tenant (`/auth/login`, `/auth/refresh-token`, etc.)  
+   - Types responses alignés backend  
+5. `proevalis-frontend/src/hooks/auth/useLogin.ts`  
+   - Consommer `accessToken` + `user`  
+   - Supprimer `roles[0]`  
+6. `proevalis-frontend/src/hooks/auth/useLogout.ts`  
+   - Aligner avec logout backend  
+7. `proevalis-frontend/src/hooks/auth/useForgotPassword.ts`  
+   - OK mais vérifier endpoint  
+8. `proevalis-frontend/src/hooks/auth/useResetPassword.ts`  
+   - OK mais vérifier endpoint  
+9. `proevalis-frontend/src/routes/_protected.tsx`  
+   - Guard auth basé sur store centralisé  
+   - `setAccessToken` + refresh automatique  
+
+**B. Tenant & Permissions**
+10. `proevalis-frontend/src/services/tenant/tenantService.ts`  
+    - Implémenter `/api/public/identity/identity`  
+11. `proevalis-frontend/src/store/useTenantStore.ts` (nouveau)  
+    - Stocker `tenantId`, `companyName`, `slug`  
+12. `proevalis-frontend/src/hooks/tenant/useTenantIdentity.ts` (nouveau)  
+    - Charger identité tenant au boot  
+
+**C. User self (profil / docs)**
+13. `proevalis-frontend/src/services/user/userService.ts`  
+    - `/api/user/profile`  
+    - `/profile/password`  
+    - `/profile/avatar`  
+    - `/profile/documents/*`  
+14. `proevalis-frontend/src/hooks/users/*` (nouveau)  
+    - `useMyProfile`, `useUpdateProfile`, etc.  
+15. `proevalis-frontend/src/pages/client/profile/index.tsx`  
+    - Brancher sur hooks réels  
+
+**D. Admin Users**
+16. `proevalis-frontend/src/pages/admin/DashboardAdminPage.tsx`  
+    - Extraire logique → hooks  
+17. `proevalis-frontend/src/pages/admin/rolePermission.tsx`  
+    - Brancher `/api/admin/roles` + permissions schema  
+18. `proevalis-frontend/src/services/admin-users/adminUsersService.ts` (nouveau)  
+    - `/api/admin/users` CRUD + export  
+19. `proevalis-frontend/src/hooks/admin-users/*` (nouveau)
+
+**E. RBAC / Permissions**
+20. `proevalis-frontend/src/services/roles/rolesService.ts` (nouveau)  
+    - `/api/admin/roles` + `/api/rebac/metadata/schema`  
+21. `proevalis-frontend/src/hooks/roles/*` (nouveau)  
+    - `useRoles`, `usePermissionsSchema`, etc.  
+22. `proevalis-frontend/src/routes/_protected/layout.tsx`  
+    - Masquer menus selon permissions  
+
+**F. Remplacement mocks**
+23. `proevalis-frontend/src/hooks/dashboard/manager/useDashboard.ts`  
+24. `proevalis-frontend/src/hooks/dashboard/manager/useGantt.ts`  
+25. `proevalis-frontend/src/mocks/*`  
+    - Supprimer quand API réelle est branchée  
+
+---
+
+**Question unique avant exécution**
+Veux‑tu qu’on **garde le token en localStorage pour l’instant** (pratique en dev), ou qu’on passe direct à **mémoire + refresh cookie** comme recommandé par le backend ?

@@ -1,0 +1,11 @@
+Important
+On n’a pas encore la source backend des permissions utilisateur (le backend expose le schéma ReBAC, pas encore les permissions de l’utilisateur).
+Donc les guards n’empêchent pas l’accès tant que permissions est null.
+
+Dès que le backend fournit l’endpoint “permissions utilisateur”, on pourra le brancher.
+
+API : http://localhost:8082
+
+Swagger UI : http://localhost:8082/swagger-ui/index.html
+
+OpenAPI JSON : http://localhost:8082/v3/api-docs
