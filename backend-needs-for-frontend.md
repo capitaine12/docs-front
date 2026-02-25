@@ -81,7 +81,7 @@ Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 
 ## local-admin-rebac-hotfix.sql
 
-``` SQL
+```SQL
 -- Local hotfix (QA only) for tenant ADMIN permissions.
 -- Purpose: unblock frontend tests when ADMIN receives only TENANT:MANAGE_ACCESS.
 -- Scope: local/dev only. Do not apply in production as-is.

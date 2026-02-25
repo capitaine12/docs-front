@@ -27,7 +27,7 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 
 - Endpoint: `POST /api/user/profile/documents/{type}`
 - Etat: non resolu.
-- Cause confirmee pour gros fichier: `MaxUploadSizeExceededException`.
+- Cause confirmée sur de gros fichier.
 - Action backend requise:
   - transformer en reponse metier (`413`/`400`) + message clair;
   - corriger les cas intermittents hors taille.
@@ -60,4 +60,6 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 
 - Besoins backend: `docs/backend-needs-for-frontend.md`
 - Checklist QA: `docs/qa-checklist-tenant-post-backend-fix.md`
+
+
 - Retour index: [index](./index.html)
