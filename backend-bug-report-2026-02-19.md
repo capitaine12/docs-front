@@ -27,7 +27,7 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 
 - Endpoint: `POST /api/user/profile/documents/{type}`
 - Etat: non resolu.
-- Cause confirmée sur de gros fichier.
+- Cause confirmée pour de gros fichiers.
 - Action backend requise:
   - transformer en reponse metier (`413`/`400`) + message clair;
   - corriger les cas intermittents hors taille.
