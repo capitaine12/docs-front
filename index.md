@@ -18,7 +18,7 @@ Cette page centralise la documentation de suivi entre le frontend et le backend 
 ## Statut actuel (2026-02-20)
 
 - Profil utilisateur: majoritairement fonctionnel (update, avatar, documents) avec incidents intermittents selon les runs.
-- RBAC admin local: corrige localement via SQL, a officialiser via migration backend.
+- ReBAC admin local: corrige localement via SQL, a officialiser via migration backend.
 - Projets: des retours `403` reapparaissent selon l'environnement/runs.
 - Upload documents: gestion des erreurs de taille/type a stabiliser cote backend.
 - Swagger/OpenAPI: plusieurs ecarts avec l'implementation reelle.
@@ -33,6 +33,5 @@ Cette page centralise la documentation de suivi entre le frontend et le backend 
 ## Sources annexes
 
 - Logs: `docs/logs/`
-- Hotfix local RBAC: `docs/local-admin-rebac-hotfix.sql`
+- Hotfix local ReBAC: `docs/local-admin-rebac-hotfix.sql`
 - Contrat API exporte: `docs/api-docs.json`
-

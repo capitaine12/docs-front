@@ -20,7 +20,7 @@ Portee: module tenant uniquement (hors super-admin master)
 - Resolution tenant via `GET /api/public/identity`.
 - Guard global routes protegees sur `src/routes/_protected.tsx`.
 
-## 3) RBAC et navigation
+## 3) ReBAC et navigation
 
 - Permissions gerees via store dedie.
 - Menu dynamique charge via `GET /api/navigation`.
@@ -69,7 +69,7 @@ Portee: module tenant uniquement (hors super-admin master)
 
 ## 6) Limites actuelles
 
-- `403` intermittents sur `/api/projects` selon environnement RBAC.
+- `403` intermittents sur `/api/projects` selon environnement ReBAC.
 - Upload document profil peut encore retourner `500` selon cas.
 - Spec Swagger pas totalement alignee au comportement runtime.
 - Endpoint dedie "mes taches" absent/non stabilise.
@@ -81,4 +81,3 @@ Portee: module tenant uniquement (hors super-admin master)
 3. Finaliser modules Scrum/Management apres stabilisation tenant core.
 
 Retour index: [index](./index.html)
-

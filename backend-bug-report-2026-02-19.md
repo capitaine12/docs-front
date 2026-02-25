@@ -12,7 +12,7 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 
 ## Incidents suivis
 
-## 1) RBAC admin -> `403` sur projets
+## 1) ReBAC admin -> `403` sur projets
 
 - Endpoint: `GET /api/projects`
 - Etat: partiellement corrige localement, non stabilise globalement.
@@ -52,7 +52,7 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 
 ## Priorisation backend proposee
 
-1. Stabiliser RBAC admin sans hotfix manuel.
+1. Stabiliser ReBAC admin sans hotfix manuel.
 2. Corriger pipeline upload documents pour supprimer les `500` techniques.
 3. Mettre la documentation OpenAPI en phase avec le runtime.
 
@@ -61,4 +61,3 @@ Contexte: frontend local (`3000`) contre backend tenant local (`8082`)
 - Besoins backend: `docs/backend-needs-for-frontend.md`
 - Checklist QA: `docs/qa-checklist-tenant-post-backend-fix.md`
 - Retour index: [index](./index.html)
-
