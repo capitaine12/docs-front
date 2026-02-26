@@ -14,8 +14,14 @@
 
 # Besoins Backend Pour Alignement Frontend (Tenant)
 
-Date: 2026-02-19  
+Date: 2026-02-26  
 Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
+
+## Nouveau blocage observé (2026-02-26)
+1. Navigation HATEOAS partielle à cause d'une erreur provider ReBAC  
+- Log backend: `Failed to fetch links from provider RebacModuleLinkProvider: Could not generate CGLIB subclass ... RebacMetadataResponse`.
+- Impact frontend: avec les nouveaux guards permissions, si `/api/navigation` ne renvoie pas tous les liens attendus, l'utilisateur peut rester limité à la page profil.
+- Action backend: corriger le provider `RebacModuleLinkProvider` (CGLIB/final DTO) pour restaurer une navigation complète et stable.
 
 ## Résolu (local uniquement)
 1. Permissions `ADMIN` insuffisantes (403 sur projets/admin users)  
@@ -63,9 +69,8 @@ Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 
 ## À clarifier backend
 1. Navigation HATEOAS ReBAC  
-- Anciennement: erreur provider CGLIB observée.
-- Dernier run: non reproduit.
-- Action: revalidation backend sur run complet (login -> navigation -> admin -> profile).
+- Erreur provider CGLIB reproduite sur `docs/logs/log-bakend.log` (2026-02-26).
+- Action: fix backend + revalidation run complet (login -> navigation -> admin -> profile).
 
 2. Endpoint tâches utilisateur  
 - Toujours pas d’endpoint clair "mes tâches affectées" pour onglet profil tâches.
@@ -78,6 +83,7 @@ Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 - Rapport détaillé: `docs/backend-bug-report-2026-02-19.md`
 - Checklist QA: `docs/qa-checklist-tenant-post-backend-fix.md`
 - Hotfix local ReBAC (matrice roles/permissions): `docs/local-admin-rebac-hotfix.sql`
+- Hotfix local ReBAC complet (mode dev): `docs/local-admin-rebac-full-dev.sql`
 
 ## local-admin-rebac-hotfix.sql
 

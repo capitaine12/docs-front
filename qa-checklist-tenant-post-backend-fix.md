@@ -1,6 +1,6 @@
 # QA Checklist Tenant (Apres Correctifs Backend)
 
-Version: 2026-02-20  
+Version: 2026-02-26  
 Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend tenant.
 
 ## Pre-requis
@@ -17,8 +17,10 @@ Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend t
    - `POST /api/auth/login` -> `200`
    - `GET /api/public/identity` -> `200`
    - `GET /api/navigation` -> `200`
-3. Recharger la page.
-4. Verifier refresh session si besoin:
+3. Verifier que la reponse `GET /api/navigation` contient les liens attendus (pas seulement un lien partiel).
+   - minimum attendu pour admin: liens vers users/projets/roles/groupes selon ReBAC.
+4. Recharger la page.
+5. Verifier refresh session si besoin:
    - `POST /api/auth/refresh-token` -> `200` (quand access token expire)
 
 ## Scenario B - Profil utilisateur
@@ -56,6 +58,8 @@ Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend t
 2. Verifier absence de `403` sur:
    - `GET /api/admin/users`
    - `GET /api/projects`
+3. Si une route reste bloquee avec frontend authentifie, verifier backend log:
+   - erreur `HateoasDiscoveryService` / `RebacModuleLinkProvider` / CGLIB.
 
 ## Critere de validation globale
 
@@ -71,4 +75,3 @@ Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend t
   - `docs/backend-needs-for-frontend.md`
 
 Retour index: [index](./index.html)
-

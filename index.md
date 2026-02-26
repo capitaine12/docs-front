@@ -15,10 +15,11 @@ Cette page centralise la documentation de suivi entre le frontend et le backend 
 - [Handover implementation frontend](./frontend-implementation-handover.html)
 
 
-## Statut actuel (2026-02-20)
+## Statut actuel (2026-02-26)
 
 - Profil utilisateur: majoritairement fonctionnel (update, avatar, documents) avec incidents intermittents selon les runs.
 - ReBAC admin local: corrige localement via SQL, a officialiser via migration backend.
+- Navigation ReBAC: erreur provider CGLIB observee en backend sur le dernier log.
 - Projets: des retours `403` reapparaissent selon l'environnement/runs.
 - Upload documents: gestion des erreurs de taille/type a stabiliser cote backend.
 - Swagger/OpenAPI: plusieurs ecarts avec l'implementation reelle.
@@ -34,4 +35,5 @@ Cette page centralise la documentation de suivi entre le frontend et le backend 
 
 - Logs: `docs/logs/`
 - Hotfix local ReBAC: `docs/local-admin-rebac-hotfix.sql`
+- Hotfix local ReBAC complet (dev): `docs/local-admin-rebac-full-dev.sql`
 - Contrat API exporte: `docs/api-docs.json`
