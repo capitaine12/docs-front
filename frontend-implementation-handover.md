@@ -1,6 +1,6 @@
 # ProEvalis Frontend - Handover Technique (Tenant)
 
-Version: 2026-02-20  
+Version: 2026-02-26  
 Portee: module tenant
 
 ## 1) Stack et regles
@@ -25,6 +25,7 @@ Portee: module tenant
 - Permissions gerees via store dedie.
 - Menu dynamique charge via `GET /api/navigation`.
 - Comportement UI conditionne par auth + permissions.
+- Guards routes factorises via `src/lib/route-guards.ts` (`requireAuthAndPermission`).
 
 ## 4) Modules frontend deja branches
 
@@ -66,10 +67,13 @@ Portee: module tenant
 - `src/pages/projects/filesManagerPage.tsx`
 - `src/pages/tasks/AssignedTasksPage.tsx`
 - `src/lib/LinkItems.tsx`
+- `src/lib/permissions.ts`
+- `src/lib/route-guards.ts`
 
 ## 6) Limites actuelles
 
 - `403` intermittents sur `/api/projects` selon environnement ReBAC.
+- erreur backend CGLIB `RebacModuleLinkProvider` observee dans `docs/logs/log-bakend.log`, pouvant renvoyer une navigation partielle.
 - Upload document profil peut encore retourner `500` selon cas.
 - Spec Swagger pas totalement alignee au comportement runtime.
 - Endpoint dedie "mes taches" absent/non stabilise.
@@ -77,7 +81,8 @@ Portee: module tenant
 ## 7) Prochaines etapes recommandees
 
 1. Rejouer la checklist QA apres prochain push backend.
-2. Mettre a jour ce handover si endpoint ou contrat change.
-3. Finaliser modules Scrum/Management apres stabilisation tenant core.
+2. Appliquer `docs/local-admin-rebac-full-dev.sql` en local pour debloquer les tests admin si necessaire.
+3. Mettre a jour ce handover si endpoint ou contrat change.
+4. Finaliser modules Scrum/Management apres stabilisation tenant core.
 
 Retour index: [index](./index.html)
