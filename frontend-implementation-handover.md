@@ -1,7 +1,7 @@
 # ProEvalis Frontend - Handover Technique (Tenant)
 
 Version: 2026-02-20  
-Portee: module tenant uniquement (hors super-admin master)
+Portee: module tenant
 
 ## 1) Stack et regles
 
