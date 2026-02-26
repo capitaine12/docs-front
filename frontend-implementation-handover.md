@@ -6,7 +6,7 @@ Portee: module tenant
 ## 1) Stack et regles
 
 - React 19 (function components)
-- TypeScript
+- TypeScript 
 - TanStack Router (file-based)
 - TanStack Query
 - Zustand (auth + etats globaux tenant/permissions)
