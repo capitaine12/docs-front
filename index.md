@@ -13,6 +13,7 @@ Cette page centralise la documentation de suivi entre le frontend et le backend 
 - [Rapport de bugs backend](./backend-bug-report-2026-02-19.html)
 - [Checklist QA post-correctifs backend](./qa-checklist-tenant-post-backend-fix.html)
 - [Handover implementation frontend](./frontend-implementation-handover.html)
+- [Architecture fichiers frontend](./frontend-file-architecture.html)
 
 
 ## Statut actuel (2026-02-26)
