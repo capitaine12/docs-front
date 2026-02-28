@@ -3,6 +3,11 @@
 Version: 2026-02-26  
 Portee: module tenant
 
+Mise a jour: 2026-02-28
+- Architecture migree vers `src/domains/*` (anciens wrappers `src/services/*`, `src/hooks/*` supprimes).
+- Pipeline CI frontend en Yarn active (`.github/workflows/frontend-ci.yml`).
+- Suite tests locale actuelle: 9 fichiers / 23 tests verts.
+
 ## 1) Stack et regles
 
 - React 19 (function components)
@@ -60,20 +65,25 @@ Portee: module tenant
 - `src/components/profile/ProfileDocumentsSection.tsx`
 - `src/components/profile/ProfileSecuritySection.tsx`
 - `src/components/profile/ProfileNotificationsSection.tsx`
-- `src/services/user/userService.ts`
-- `src/services/project/projectService.ts`
-- `src/hooks/projects/useProjects.ts`
+- `src/domains/users/api/userService.ts`
+- `src/domains/projects/api/projectService.ts`
+- `src/domains/projects/hooks/useProjects.ts`
+- `src/domains/auth/*`
+- `src/domains/tenant/*`
+- `src/domains/roles/*`
+- `src/domains/scrum/*`
 - `src/pages/projects/AllProjectPage.tsx`
 - `src/pages/projects/filesManagerPage.tsx`
 - `src/pages/tasks/AssignedTasksPage.tsx`
 - `src/lib/LinkItems.tsx`
-- `src/lib/permissions.ts`
-- `src/lib/route-guards.ts`
+- `src/features/access-control/permissions.ts`
+- `src/features/access-control/route-guards.ts`
 
 ## 6) Limites actuelles
 
 - `403` intermittents sur `/api/projects` selon environnement ReBAC.
 - erreur backend CGLIB `RebacModuleLinkProvider` observee dans `docs/logs/log-bakend.log`, pouvant renvoyer une navigation partielle.
+- compte `admin@test.com` pas encore pleinement autorise en projets/files/scrum selon run backend actuel.
 - Upload document profil peut encore retourner `500` selon cas.
 - Spec Swagger pas totalement alignee au comportement runtime.
 - Endpoint dedie "mes taches" absent/non stabilise.

@@ -3,6 +3,10 @@
 Version: 2026-02-26  
 Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend tenant.
 
+Mise a jour: 2026-02-28
+- Le compte `admin@test.com` doit explicitement avoir les permissions/relations ReBAC projets.
+- Sans cela, la recette "Projects + files + scrum" est non concluante meme si auth/profile passent.
+
 ## Pre-requis
 
 - Backend tenant demarre sur `http://localhost:8082`
@@ -19,6 +23,7 @@ Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend t
    - `GET /api/navigation` -> `200`
 3. Verifier que la reponse `GET /api/navigation` contient les liens attendus (pas seulement un lien partiel).
    - minimum attendu pour admin: liens vers users/projets/roles/groupes selon ReBAC.
+   - pour `admin@test.com`: verifier au minimum la presence des entrees projets/files/scrum.
 4. Recharger la page.
 5. Verifier refresh session si besoin:
    - `POST /api/auth/refresh-token` -> `200` (quand access token expire)
@@ -58,6 +63,7 @@ Usage: valider rapidement qu'un nouveau push backend n'a pas casse le frontend t
 2. Verifier absence de `403` sur:
    - `GET /api/admin/users`
    - `GET /api/projects`
+   - `GET /api/projects/{projectId}/documents`
 3. Si une route reste bloquee avec frontend authentifie, verifier backend log:
    - erreur `HateoasDiscoveryService` / `RebacModuleLinkProvider` / CGLIB.
 

@@ -17,6 +17,15 @@
 Date: 2026-02-26  
 Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 
+## Mise a jour (2026-02-28)
+1. Compte `admin@test.com` encore limite en ReBAC
+- Symptôme: impossible de finaliser la recette "Projects + files + scrum" pour ce compte.
+- Cause attendue: liens incomplets dans `GET /api/navigation` et/ou relations ReBAC manquantes pour `PROJECT:*`.
+- Action backend: attribuer les relations/permissions nécessaires au compte admin tenant pour debloquer:
+  - `GET /api/projects`
+  - `GET /api/projects/{projectId}/documents`
+  - navigation vers pages projets/files/scrum.
+
 ## Nouveau blocage observé (2026-02-26)
 1. Navigation HATEOAS partielle à cause d'une erreur provider ReBAC  
 - Log backend: `Failed to fetch links from provider RebacModuleLinkProvider: Could not generate CGLIB subclass ... RebacMetadataResponse`.
@@ -71,6 +80,7 @@ Périmètre: module tenant local (`frontend:3000`, `backend:8082`)
 1. Navigation HATEOAS ReBAC  
 - Erreur provider CGLIB reproduite sur `docs/logs/log-bakend.log` (2026-02-26).
 - Action: fix backend + revalidation run complet (login -> navigation -> admin -> profile).
+- Tant que ce point n'est pas corrige, les guards frontend peuvent limiter l'accès a certaines pages meme avec un compte admin.
 
 2. Endpoint tâches utilisateur  
 - Toujours pas d’endpoint clair "mes tâches affectées" pour onglet profil tâches.
